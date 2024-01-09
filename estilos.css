@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+}
+
+.contenedor {
+    background: linear-gradient(to right, #ff6943, #8a1111);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 2em;
+    padding: 2em;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    background-color: transparent;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8a1111;
+    color: #fff;
+}
+
+#yesBtn {
+    transform: translate(-100%, 0);
+}
+
+#noBtn {
+    position: absolute;
+    transform: translate(50%, 148%);
+}
+
+
+/* estilos.css */
+
+#mensajePersonalizado {
+    display: none;
+    font-size: 10000px;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+}
